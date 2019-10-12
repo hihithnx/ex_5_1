@@ -16,7 +16,7 @@
 		header .wrap{ 
 			background:url(1.png);
 			background-size: cover;
-			background-position: 0px 0px 20px;
+			background-position: 0px 0px 100px;
 			height:700px;
 			 }
 
@@ -34,7 +34,7 @@
 
 		.back{
 			  position: absolute;
-			  left: 0px; }
+			  left: 100px; }
 
 		h2{ font-size: 30px; 
 			font-weight: 900;
@@ -84,7 +84,7 @@
 
 		@keyframes ro{ to{transform: rotate(360deg);} }
 		@keyframes ltor{ from{left:100px;} to{left:300px;} }
-		@keyframes rtol{ from{left:0px;} to{left:600px;} }
+		@keyframes rtol{ from{left:0px;} to{left:700px;} }
 		@keyframes bt{
 			from{top:500px; opacity: 0;}
 			to{top:200px; opacity: 1;}
@@ -194,7 +194,7 @@
 				
 
 				
-				if(t > 3000){ side1.style.animation = "rtol 3s forwards"; }
+				if(t > 3000){ side1.style.animation = "rtol 2s forwards ease-out"; }
 				else{side1.style.animation = "";}
 
 		}
